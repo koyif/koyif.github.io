@@ -4,9 +4,9 @@ description: >-
   Не надо стремиться к идеальному коду. Пусть твой код будет понятным, эффективным и, по возможности, красивым!
 baseurl: ""
 url: ""
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
 markdown: kramdown
-theme: jekyll-theme-midnight
-plugins:
-  - jekyll-feed
+kramdown:
+  parse_block_html: true
+theme: minima
